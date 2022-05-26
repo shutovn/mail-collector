@@ -8,12 +8,16 @@
 Проект адаптирован под работу с почтовым сервером imap.yandex.com
 1. Необходимо завести учетную запись (УЗ) на почтовом сервере yandex.com.
 2. Клонируем проект:
+
     `git clone git@github.com:shutovn/mail-collector.git`
 3. Переходим в директорию проекта:
+
     `cd mail-collector`
 4. Переименовываем файл conf/.fetchmailrc_example
+
     `cp conf/.fetchmailrc_example conf/.fetchmailrc`
 5. Собираем контейнер
+
     `sudo docker build -t="mail-collector" .`
 
 ## Запускаем проект
