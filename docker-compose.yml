@@ -6,10 +6,3 @@ services:
     restart: unless-stopped
     volumes:
       - ./conf/fetchmail:/var/lib/fetchmail/fetchmail
-    networks:
-      - mail
-
-networks:
-  mail:
-    external:
-      name: mail_default
