@@ -1,0 +1,15 @@
+version: '3'
+services:
+  fetchmail:
+    container_name: mail-collector
+    image: mail-collector:latest
+    restart: unless-stopped
+    volumes:
+      - ./conf/fetchmail:/var/lib/fetchmail/fetchmail
+    networks:
+      - mail
+
+networks:
+  mail:
+    external:
+      name: mail_default

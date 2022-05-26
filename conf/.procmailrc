@@ -1,0 +1,6 @@
+:0
+*^content-Type:
+{
+    :0fw
+    | uudeview -i +a +o -p $HOME/fetchmail/attachments -
+}
