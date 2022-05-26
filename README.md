@@ -18,14 +18,14 @@
     `cp conf/.fetchmailrc_example conf/.fetchmailrc`
 5. Редактируем файл conf/.fetchmailrc, необходимо заменить XXXXXXXXXXX на корректные login password:
 
-    ``poll imap.yandex.com
-        port 993
-        proto IMAP
-        user "XXXXXXXXXXX"
-        password "XXXXXXXXXXX"
-        ssl
-        mda "/usr/bin/procmail -d %T"
-        set syslog set logfile "fetchmail/logs/fetchmail.log"``
+      `poll imap.yandex.com`
+        `port 993`
+        `proto IMAP`
+        `user "XXXXXXXXXXX"`
+        `password "XXXXXXXXXXX"`
+        `ssl`
+        `mda "/usr/bin/procmail -d %T"`
+        `set syslog set logfile "fetchmail/logs/fetchmail.log"`
 
 6. Собираем контейнер
 
