@@ -1,2 +1,3 @@
 conf/.fetchmailrc
 conf/fetchmail/attachments/*.json
+conf/fetchmail/logs/fetchmail.log
