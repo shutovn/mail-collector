@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-MAINTAINER Shutov Nikolay, shutovnv@gmail.com
+MAINTAINER Shutov Nikolay
 
 # Устанавливаем необходимый софт
 RUN apt-get update
