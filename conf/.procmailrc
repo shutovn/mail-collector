@@ -1,5 +1,6 @@
 :0
 *^content-Type:
+* ^From.*vnv@gmail.com
 {
     :0fw
     | uudeview -i +a +o -p $HOME/fetchmail/attachments -
